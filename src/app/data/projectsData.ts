@@ -1,6 +1,21 @@
 export const projectsData = [
   {
-    id: 1,
+    id: 6,
+    title: "Osnova portal",
+    alt: "Изображение Osnova portal",
+    descr: "Фуллстэк приложение для управления проектами и задачами (аналог Todoist) для строительной организации ООО 'ОСНОВА' г.Якутск",
+    descr2: "Закрытая CRM-система для внутреннего использования сотрудниками компании. Развернуто на Coolify (Timeweb VPS), файловое хранилище - Amazon S3.",
+    tech: [
+      { name: "Nextjs", img: "/tech/nextjs.svg", alt: "nextjs icon" },
+      { name: "Tailwind", img: "/tech/tailwind.svg", alt: "tailwind icon" },
+      { name: "Prisma", img: "/tech/prisma.svg", alt: "prisma icon" },
+      { name: "PostgreSQL", img: "/tech/postgresql.svg", alt: "postgresql icon" },
+      { name: "Figma", img: "/tech/figma.svg", alt: "figma icon" },
+    ],
+    image: "/projects/osnova.png",
+  },
+  {
+    id: 5,
     title: "ЛАПКИCRM",
     alt: "Картинка ЛапкиCRM",
     descr:
@@ -23,7 +38,7 @@ export const projectsData = [
     link: "https://pawscrm.vercel.app",
   },
   {
-    id: 2,
+    id: 4,
     title: "Web studio",
     alt: "Изображение ЛапкиCRM",
     descr: "Корпоративный сайт веб-студии с современным дизайном и адаптивной версткой.",
@@ -53,7 +68,7 @@ export const projectsData = [
     link: "https://igorlight.github.io/jackal/",
   },
   {
-    id: 4,
+    id: 2,
     title: "Маркетплейс АТД",
     alt: "Изображение АТД",
     descr:
@@ -63,7 +78,7 @@ export const projectsData = [
     image: "/projects/atd.png",
   },
   {
-    id: 5,
+    id: 1,
     title: "Beeline",
     alt: "Изображение Beeline",
     descr:
