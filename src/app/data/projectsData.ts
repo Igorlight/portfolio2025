@@ -12,6 +12,7 @@ export const projectsData = [
       { name: "Figma", img: "/tech/figma.svg", alt: "figma icon" },
     ],
     image: "/projects/dentalika.png",
+    link: "https://dentalika-navy.vercel.app/",
   },
   {
     id: 6,
