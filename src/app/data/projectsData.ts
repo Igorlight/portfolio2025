@@ -1,11 +1,26 @@
 export const projectsData = [
   {
+    id: 7,
+    title: "Стоматологическая клиника Dentalika",
+    alt: "Изображение Dentalika",
+    descr: "Простенький сайт для стоматологической клиники, без базы данных и панели администратора",
+    descr2: "К сожалению с клиентом в итоге договориться по цене так и не получилось, вот старый сайт клиники для сравнения https://dentalika14.ru/, а этот проект так и останется тут висеть, доступен по ссылке ниже.",
+    tech: [
+      { name: "HTML", img: "/tech/html.svg", alt: "html icon" },
+      { name: "Nextjs", img: "/tech/nextjs.svg", alt: "nextjs icon" },
+      { name: "Tailwind", img: "/tech/tailwind.svg", alt: "tailwind icon" },
+      { name: "Figma", img: "/tech/figma.svg", alt: "figma icon" },
+    ],
+    image: "/projects/dentalika.png",
+  },
+  {
     id: 6,
     title: "Osnova portal",
     alt: "Изображение Osnova portal",
     descr: "Фуллстэк приложение для управления проектами и задачами (аналог Todoist) для строительной организации ООО 'ОСНОВА' г.Якутск",
     descr2: "Закрытая CRM-система для внутреннего использования сотрудниками компании. Развернуто на Coolify (Timeweb VPS), файловое хранилище - Amazon S3.",
     tech: [
+      { name: "HTML", img: "/tech/html.svg", alt: "html icon" },
       { name: "Nextjs", img: "/tech/nextjs.svg", alt: "nextjs icon" },
       { name: "Tailwind", img: "/tech/tailwind.svg", alt: "tailwind icon" },
       { name: "Prisma", img: "/tech/prisma.svg", alt: "prisma icon" },
@@ -23,6 +38,7 @@ export const projectsData = [
     descr2:
       "Разработал комплексное решение с удобным интерфейсом, включающее управление пациентами, записями, календарем и финансовой отчетностью.",
     tech: [
+      { name: "HTML", img: "/tech/html.svg", alt: "html icon" },
       { name: "Nextjs", img: "/tech/nextjs.svg", alt: "nextjs icon" },
       { name: "Tailwind", img: "/tech/tailwind.svg", alt: "tailwind icon" },
       { name: "Zustand", img: "/tech/zustand.svg", alt: "zustand icon" },
