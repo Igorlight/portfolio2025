@@ -1,5 +1,22 @@
 export const projectsData = [
   {
+    id: 8,
+    title: "Сайт для ветеринарного кабинета Егорковет",
+    alt: "Изображение Егорковет",
+    descr: "Сайт Ветеринарного кабинета, с БД и полноценнной админкой для управления контентом.",
+    descr2: "Для хранилища изображений используется Vercel Blob, на данный момент сайт находится пока что в разработке.",
+    tech: [
+      { name: "HTML", img: "/tech/html.svg", alt: "html icon" },
+      { name: "Nextjs", img: "/tech/nextjs.svg", alt: "nextjs icon" },
+      { name: "Tailwind", img: "/tech/tailwind.svg", alt: "tailwind icon" },
+      { name: "Prisma", img: "/tech/prisma.svg", alt: "prisma icon" },
+      { name: "PostgreSQL", img: "/tech/postgresql.svg", alt: "postgresql icon" },
+      { name: "Figma", img: "/tech/figma.svg", alt: "figma icon" },
+    ],
+    image: "/projects/egorkovet.png",
+    link: "https://egorkovet.vercel.app/",
+  },
+  {
     id: 7,
     title: "Стоматологическая клиника Dentalika",
     alt: "Изображение Dentalika",
