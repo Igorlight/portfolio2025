@@ -14,9 +14,9 @@ export default function Home() {
           id="hero"
           className="grid grid-cols-16 min-h-[calc(100vh-64px)] relative"
         >
-          <div className="flex flex-col justify-center col-span-16 md:col-span-4  relative">
-            <div className="hidden md:block absolute top-0 right-0 bottom-0 w-px bg-gradient-to-b from-transparent via-white/15 to-white/15"></div>
-            <div className="hidden md:block absolute top-0 left-0 bottom-0 w-px bg-gradient-to-b from-transparent via-white/15 to-white/15"></div>
+          <div className="flex flex-col justify-center col-span-16 md:col-span-4 relative">
+            <div className="hidden md:block absolute top-0 right-0 bottom-0 w-px bg-gradient-to-b from-transparent via-white/15 to-white/15 z-10"></div>
+            <div className="hidden md:block absolute top-0 left-0 bottom-0 w-px bg-gradient-to-b from-transparent via-white/15 to-white/15 z-10"></div>
             <p className="text-gray-500 font-mono text-xl">Портфолио</p>
             <h1 className="text-5xl sm:text-6xl md:text-[80px] lg:text-[96px] font-bold leading-[1.05] md:w-[120%] mb-4 z-20 relative">
               <p>Канаев Игорь Сергеевич</p>
