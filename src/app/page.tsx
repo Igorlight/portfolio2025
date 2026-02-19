@@ -1,9 +1,11 @@
+"use client";
 import Image from "next/image";
 import MainButton from "./components/MainButton";
 import { Plus } from "lucide-react";
 import ProjectsSlider from "./components/ProjectsSlider";
 import Link from "next/link";
 import Logo from "./components/Logo";
+import ProfileCard from "./components/ProfileCard";
 export default function Home() {
   return (
     <div>
@@ -38,6 +40,22 @@ export default function Home() {
           <div className="hidden md:col-span-12 md:relative md:flex items-center justify-center p-4">
             
             <div className="absolute inset-0 bg-diagonal-pattern"></div>
+            <ProfileCard
+  name="IGOR KANAEV"
+  title="Software Engineer"
+  handle="javicodes"
+  status="Online"
+  contactText="Contact Me"
+  showUserInfo={false}
+  enableTilt={true}
+  enableMobileTilt={false}
+  onContactClick={() => console.log('Contact clicked')}
+  behindGlowColor="rgba(125, 190, 255, 0.67)"
+  iconUrl="/tech/react.svg"
+  behindGlowEnabled
+  innerGradient="linear-gradient(145deg,#60496e8c 0%,#71C4FF44 100%)"
+  behindGlowSize="50%"
+/>
           </div>
         </section>
         <section className="relative py-20 md:py-40">

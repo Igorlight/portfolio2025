@@ -10,7 +10,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
-import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/app/components/ui/tooltip";
 
 
 export default function ProjectsSlider() {
@@ -21,8 +21,6 @@ export default function ProjectsSlider() {
         <button className="swiper-button-prev-custom p-4 border border-white/15 cursor-pointer">
           <ArrowLeft className="w-6 h-6 text-white" />
         </button>
-        
-        
         <button className="swiper-button-next-custom p-4 border border-white/15 cursor-pointer">
           <ArrowRight className="w-6 h-6 text-white" />
         </button>
